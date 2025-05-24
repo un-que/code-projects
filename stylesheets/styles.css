@@ -51,6 +51,10 @@ body {
   justify-items: center;
 }
 
+button {
+  margin-right: 10px;
+}
+
 .logo {
   display: flex;
   margin: 5px;
