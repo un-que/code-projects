@@ -34,14 +34,15 @@
 /*Заголовок*/
 body {
   margin: 0px;
+  background-color: rgb(57, 62, 70);
 }
 
 .header {
   width: 100%;
   background: linear-gradient(
-    to right,
-    rgb(205, 86, 86),
-    rgb(175, 62, 62)
+    to bottom right,
+    rgb(189, 221, 228),
+    rgb(176, 219, 156)
   );
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
