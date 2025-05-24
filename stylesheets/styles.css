@@ -1,3 +1,68 @@
+/*Адаптивный дизайн*/
+
+/*Будет ли смотреться на 4к мониторе? Ультрашироком.*/
+  @media (min-width: 1200px) {
+    .logo {
+        height: 100px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .logo {
+        height: 80px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .logo {
+        height: 60px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+        height: 40px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .logo {
+        height: 50px;
+    }
+  }
+
+/*Заголовок*/
+body {
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(205, 86, 86),
+    rgb(175, 62, 62)
+  );
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
+
 .logo {
-  height: 50px;
+  display: flex;
+  margin: 5px;
+  margin-right: 0px;
+  border-radius: 100%;
+}
+
+#name {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  font-family: "Courier-new", monospace;
+  color: rgb(170, 217, 187);
+  text-shadow: 1px 2px 2px rgb(128, 188, 189);
 }
