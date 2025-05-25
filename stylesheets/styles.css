@@ -1,3 +1,13 @@
+:root {
+  --body-color: white;
+  --text-color: black;
+}
+
+:root[theme='dark'] {
+  --body-color: rgb(57, 62, 70);
+  --text-color: white;
+}
+
 /*Адаптивный дизайн*/
 
 /*Будет ли смотреться на 4к мониторе? Ультрашироком.*/
@@ -34,7 +44,7 @@
 /*Заголовок*/
 body {
   margin: 0px;
-  background-color: rgb(57, 62, 70);
+  background-color: var(--body-color);
 }
 
 .header {
@@ -51,10 +61,6 @@ body {
   justify-items: center;
 }
 
-button {
-  margin-right: 10px;
-}
-
 .logo {
   display: flex;
   margin: 5px;
@@ -68,6 +74,6 @@ button {
   width: 100%;
   justify-content: center;
   font-family: "Courier-new", monospace;
-  color: rgb(170, 217, 187);
+  color: var(--text-color);
   text-shadow: 1px 2px 2px rgb(128, 188, 189);
 }
